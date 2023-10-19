@@ -1,0 +1,273 @@
+ *{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.video{
+    width: 100%;
+    height: 100vh;
+}  
+.video video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio: 16/9)
+{
+    .video video
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+.logo{
+    font-size:x-large;
+    font-family: 'Times New Roman', Times, serif;
+  }
+#logo2{
+      font-family:cursive;
+      font-size:medium;
+  }
+#header{
+      font-family: 'Times New Roman', Times, serif;
+      font-size:20px;
+      font-weight:lighter;
+      left: 0%;
+      right: 0%;
+      top:0%;
+      padding:30px;
+  }
+  #text{
+      float:left;
+      margin-left:10px;
+    }
+  #header ul{
+      list-style-type: none;
+      float: right;
+      font-size: 20px;
+      font-weight:400;
+      
+  }
+  #header ul li
+  {
+      padding: 5px; 
+      display: inline-block;
+      margin: 0px 0px;
+      
+  }
+  #header ul li a{
+  text-decoration: none;
+  text-align: center;
+  color:red;font-weight:bolder;
+  padding:6px;
+  border-radius:10px;
+  padding:10px;
+  }
+ #header ul li:hover{
+    font-size:20px;
+    border-style:groove;
+    color:black;
+    border-color: yellow;
+    border-width :3px;
+    border-radius: 20px;
+ }
+ .text-container {
+    margin-top:120px;
+    margin-left: 180px;
+    position:fixed;
+    text-align:center;
+    animation: slideIn;
+    animation-duration:2s;
+    animation-fill-mode:forwards;
+  }
+  @keyframes slideIn{
+    0%{
+      opacity: 0;
+      transform: translateX(-1100%);
+    }
+    100%{
+      opacity: 1;
+      transform: translateX(0);
+    }}
+  
+  .name{
+    color:red;
+    display: inline;
+    font-family:'Times New Roman', Times, serif;
+    font-size:60px; 
+  }
+  .name:hover{
+    color: yellow;
+  }
+  #im{
+    display: inline;
+    font-size:35px;
+    color: white;
+  }
+
+
+
+  
+ #fntend{
+    font-family:cursive;
+    font-size:20px;
+    color: aqua;
+  }#hello{
+    text-align: left;
+    font-size:40px;
+    color:white;
+    font-weight:lighter;
+  }#logreg{
+    display: inline-block;
+  }
+  #logreg button{
+    background-color: transparent;
+    padding:3px 20px 3px 20px;
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 30px;
+    border-color:yellow;
+    border-width: 3px;
+    font-size:20px;
+    margin: 10px;
+  }
+  #reg:hover{
+    color: black;
+  }
+  #reg{
+    color: red;
+  }
+  #logreg button a{
+    text-decoration: none;
+  }
+  #logreg button:hover{
+    border-color:orange;
+    background-color:orange;
+    color:black;
+  }
+  #boxlogin{
+    text-align: center;
+    border-style: solid;
+    border-color:blue;
+    color: red;
+    border-radius: 25px;
+    font-size: 30px;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#box{
+    position:relative;
+    width: 300px;
+    height:385px;
+    backdrop-filter: blur(40px);
+    border-style: solid;
+    border-color:white;
+    top: 50px;
+    left: 850px;
+    border-radius: 5px;
+    
+    
+}
+form #form {
+display: block;
+margin: 20px;
+width: 240px;
+color: white;
+height: 35px;
+background: transparent;
+background-color: transparent;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom:3px solid orange;
+font-size: 15px;
+font-family: sans-serif;
+letter-spacing: 1px;
+}
+#fntend{
+  color:white;
+}
+#fntend:hover{
+  color: aqua;
+}
+form #form:focus{
+outline: none;
+
+} 
+::placeholder{
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+}
+form #buttons{
+display: inline;
+text-align: center;
+border-radius: 25px;
+margin-left: 30px;
+border-color:#ff7200;
+background-color:#ff7200;
+color: black;
+border-style: solid;
+width: 100px;
+padding:2px 3px 2px 3px;
+}
+ form #buttons:hover{
+  background-color:aqua;
+  border-color:aqua;
+  color: black;
+}
+#boxbuttonreg{
+  border-color:#ff7200;
+  background-color:#ff7200;
+  color: black;
+  border-style: solid;
+  padding:2px 3px 2px 3px;
+  border-radius: 25px;
+  width: 100px;
+  text-decoration:none; 
+}#boxbuttonreg:hover{
+  background-color:aqua;
+  border-color:aqua;
+  color: black;
+}
+#text1{
+text-align: center;
+margin-top: 10px;
+color: white;
+margin-left: 5px;
+}
+#boxicons{
+  text-align:center;
+  color: white;
+  margin: 5px;
+  margin-left: 80px;
+}
+#footer1 li{
+  text-decoration: none;
+  display: inline-block;
+}
+#footer1 li a i{
+  
+  margin:15px;
+  /* margin-top: 10px;
+  margin-left: 30px; */
+}
+.linkedin{
+color: blue;
+font-size: 26px;
+}.google{
+    color:yellow;
+    font-size:26px;
+}.twitter{
+    color:blue;
+    font-size:26px;
+}.instagram{
+    color: red;
+    font-size:26px;
+}.facebook{
+    color: blue;
+    font-size:26px;
+}#footer1 li a i:hover{
+  color: white;
+}
